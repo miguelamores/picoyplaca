@@ -13,12 +13,14 @@ public class Predict {
     private final static LocalTime AFTERNOON_START = LocalTime.of(16, 00);
     private final static LocalTime AFTERNOON_FINAL = LocalTime.of(19, 30);
 
+    Helper helper = new Helper();
+
     public Predict() {
     }
 
     public boolean calculate(String plateNumber, DayOfWeek date, LocalTime time){
 
-        int lastNumber = Integer.parseInt(plateNumber);
+        int lastNumber = Integer.parseInt(helper.parsePlateNumber(plateNumber));
 
         if (time.isAfter(MORNING_START) && time.isBefore(MORNING_FINAL) ||
                 time.isAfter(AFTERNOON_START) && time.isBefore(AFTERNOON_FINAL)) {

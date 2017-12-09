@@ -7,8 +7,14 @@ import java.time.LocalTime;
  */
 public class Helper {
 
+    String regex = "\\d+";
+    String regex2 = "[a-zA-Z]";
+
     public String parsePlateNumber(String fullPlateNumber){
-        if (fullPlateNumber.length() == 7 || fullPlateNumber.length() == 8){
+        String number = fullPlateNumber.substring(4,8);
+        if (fullPlateNumber.length() == 8
+                && number.matches(regex)){
+            //System.out.println(fullPlateNumber.substring(0,2));
             String num = fullPlateNumber.substring(fullPlateNumber.length() - 1);
             return num;
         }
