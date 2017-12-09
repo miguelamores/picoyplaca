@@ -8,11 +8,19 @@ import java.time.LocalTime;
 public class Helper {
 
     public String parsePlateNumber(String fullPlateNumber){
-        String num = fullPlateNumber.substring(fullPlateNumber.length() - 1);
-        return num;
+        if (fullPlateNumber.length() == 7 || fullPlateNumber.length() == 8){
+            String num = fullPlateNumber.substring(fullPlateNumber.length() - 1);
+            return num;
+        }
+        throw new NumberFormatException();
+
     }
 
     public LocalTime parseStringToTime(String time){
-        return LocalTime.parse(time);
+        if (time.length() == 5){
+            return LocalTime.parse(time);
+        }
+        throw new NumberFormatException();
+
     }
 }
