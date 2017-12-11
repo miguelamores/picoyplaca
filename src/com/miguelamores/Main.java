@@ -12,10 +12,10 @@ public class Main {
         Helper helper = new Helper();
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter the full plate number:");
-        String num = helper.parsePlateNumber(scanner.next());
+        System.out.println("Enter the full plate number: ex. pef-0861");
+        String num = scanner.next();
 
-        System.out.println("Enter the day of week:");
+        System.out.println("Enter the day of week: ex. monday");
         DayOfWeek dayOfWeek = DayOfWeek.valueOf(scanner.next().toUpperCase());
 
         System.out.println("Enter the time: ex. 08:30");

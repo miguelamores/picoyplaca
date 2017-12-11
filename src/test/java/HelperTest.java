@@ -37,6 +37,6 @@ public class HelperTest {
 
     @Test
     public void testLengthPlateNumber(){
-
+        assertEquals(1, helper.parsePlateNumber("gyt-0983").length());
     }
 }

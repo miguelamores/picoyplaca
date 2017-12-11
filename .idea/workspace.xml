@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a0ac676-8d71-42d6-a645-8594ef7f4355" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/picoyplaca/com/miguelamores/Helper.class" afterPath="$PROJECT_DIR$/out/production/picoyplaca/com/miguelamores/Helper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/picoyplaca/com/miguelamores/Main.class" afterPath="$PROJECT_DIR$/out/production/picoyplaca/com/miguelamores/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/picoyplaca/test/java/HelperTest.class" afterPath="$PROJECT_DIR$/out/production/picoyplaca/test/java/HelperTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/miguelamores/Helper.java" afterPath="$PROJECT_DIR$/src/com/miguelamores/Helper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/miguelamores/Predict.java" afterPath="$PROJECT_DIR$/src/com/miguelamores/Predict.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/miguelamores/Main.java" afterPath="$PROJECT_DIR$/src/com/miguelamores/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/HelperTest.java" afterPath="$PROJECT_DIR$/src/test/java/HelperTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,8 +23,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/miguelamores/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="142">
+              <caret line="18" column="78" lean-forward="true" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,8 +35,8 @@
       <file leaf-file-name="Helper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/miguelamores/Helper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="267">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -43,10 +45,12 @@
       <file leaf-file-name="HelperTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/HelperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="146">
+              <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
+                <element signature="e#1103#1104#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,8 +59,8 @@
       <file leaf-file-name="Predict.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/miguelamores/Predict.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="37">
+              <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,9 +88,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/miguelamores/Main.java" />
         <option value="$PROJECT_DIR$/src/com/miguelamores/Predict.java" />
         <option value="$PROJECT_DIR$/src/com/miguelamores/Helper.java" />
+        <option value="$PROJECT_DIR$/src/com/miguelamores/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/HelperTest.java" />
       </list>
     </option>
@@ -180,9 +184,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HelperTest.testTrueWhenYouDoNotHavePicoYPlaca">
+  <component name="RunManager" selected="JUnit.HelperTest.testLengthPlateNumber">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.miguelamores.Main" />
@@ -217,32 +221,6 @@
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="HelperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="picoyplaca" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.HelperTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="false" name="HelperTest.testLenghtOfPlateNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -310,6 +288,32 @@
       <option name="PACKAGE_NAME" value="test.java" />
       <option name="MAIN_CLASS_NAME" value="test.java.HelperTest" />
       <option name="METHOD_NAME" value="testTrueWhenYouDoNotHavePicoYPlaca" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="HelperTest.testLengthPlateNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="picoyplaca" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.java" />
+      <option name="MAIN_CLASS_NAME" value="test.java.HelperTest" />
+      <option name="METHOD_NAME" value="testLengthPlateNumber" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -705,18 +709,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.HelperTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HelperTest.testLenghtOfPlateNumber" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.HelperTest.testTrueWhenYouHavePicoYPlaca" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.HelperTest.testTrueWhenYouDoNotHavePicoYPlaca" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.HelperTest.testLenghtOfPlateNumber" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.HelperTest.testTrueWhenYouHavePicoYPlaca" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HelperTest.testTrueWhenYouDoNotHavePicoYPlaca" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.HelperTest.testLengthPlateNumber" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.HelperTest.testTrueWhenYouDoNotHavePicoYPlaca" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.HelperTest.testLenghtOfPlateNumber" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HelperTest.testTrueWhenYouHavePicoYPlaca" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HelperTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.HelperTest.testLengthPlateNumber" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.HelperTest.testTrueWhenYouDoNotHavePicoYPlaca" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.HelperTest.testLenghtOfPlateNumber" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HelperTest.testTrueWhenYouHavePicoYPlaca" />
       </list>
     </recent_temporary>
   </component>
@@ -731,27 +735,28 @@
       <option name="presentableId" value="Default" />
       <updated>1512765731478</updated>
       <workItem from="1512765733313" duration="10366000" />
-      <workItem from="1512849751227" duration="4286000" />
+      <workItem from="1512849751227" duration="4350000" />
+      <workItem from="1512953479528" duration="1787000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelperTest_testLenghtOfPlateNumber - 2017.12.09 at 15h 59m 04s.xml">
-      <configuration name="HelperTest.testLenghtOfPlateNumber" configurationId="JUnit" />
+    <history-entry file="HelperTest_testLengthPlateNumber - 2017.12.10 at 20h 02m 09s.xml">
+      <configuration name="HelperTest.testLengthPlateNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelperTest_testLenghtOfPlateNumber - 2017.12.09 at 15h 59m 36s.xml">
-      <configuration name="HelperTest.testLenghtOfPlateNumber" configurationId="JUnit" />
+    <history-entry file="HelperTest_testLengthPlateNumber - 2017.12.10 at 20h 02m 35s.xml">
+      <configuration name="HelperTest.testLengthPlateNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelperTest_testLenghtOfPlateNumber - 2017.12.09 at 16h 00m 05s.xml">
-      <configuration name="HelperTest.testLenghtOfPlateNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelperTest_testLenghtOfPlateNumber - 2017.12.09 at 16h 08m 45s.xml">
-      <configuration name="HelperTest.testLenghtOfPlateNumber" configurationId="JUnit" />
+    <history-entry file="HelperTest_testLengthPlateNumber - 2017.12.10 at 20h 02m 49s.xml">
+      <configuration name="HelperTest.testLengthPlateNumber" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HelperTest_testTrueWhenYouDoNotHavePicoYPlaca - 2017.12.09 at 16h 11m 14s.xml">
       <configuration name="HelperTest.testTrueWhenYouDoNotHavePicoYPlaca" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HelperTest_testTrueWhenYouDoNotHavePicoYPlaca - 2017.12.09 at 16h 12m 48s.xml">
+      <configuration name="HelperTest.testTrueWhenYouDoNotHavePicoYPlaca" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelperTest_testTrueWhenYouDoNotHavePicoYPlaca - 2017.12.10 at 19h 52m 27s.xml">
       <configuration name="HelperTest.testTrueWhenYouDoNotHavePicoYPlaca" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HelperTest_testTrueWhenYouHavePicoYPlaca - 2017.12.09 at 16h 00m 55s.xml">
@@ -768,7 +773,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14652000" />
+    <option name="totallyTimeSpent" value="16503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1257" height="709" extended-state="0" />
@@ -784,12 +789,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25349793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25761318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -839,6 +844,46 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/miguelamores/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/miguelamores/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/miguelamores/Predict.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="53" lean-forward="true" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/miguelamores/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding>
@@ -871,24 +916,26 @@
           <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/miguelamores/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/miguelamores/Predict.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="37">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/miguelamores/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="18" column="78" lean-forward="true" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -897,18 +944,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/miguelamores/Helper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        <state relative-caret-position="267">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HelperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="146">
+          <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
           </folding>
         </state>
       </provider>
